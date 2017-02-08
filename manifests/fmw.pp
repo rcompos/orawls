@@ -84,9 +84,6 @@ define orawls::fmw(
     }
     $createFile1 = "${download_dir}/${sanitised_title}/Disk1"
     $total_files = 1
-    $type          = 'java'
-    $binFile1      = 'fmw_12.2.1.1.0_infrastructure.jar'
-    $install_type  = 'Fusion Middleware Infrastructure'
 
   } elsif ( $fmw_product == 'forms' ) {
 
